@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Consolidated min-width overrides. Base rules in every other file are
+   mobile-first; this file is the single place that widens them.
+   Breakpoints: sm 480px, md 768px, lg 1024px, xl 1280px.
+   ========================================================================== */
+
+@media (min-width: 480px) {
+  .grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--gp-font-size-3xl);
+  }
+
+  h2 {
+    font-size: var(--gp-font-size-2xl);
+  }
+
+  .grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .section {
+    padding-block: var(--gp-space-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-inline: var(--gp-space-6);
+  }
+}

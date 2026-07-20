@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Global layout primitives: smooth scroll, container, grid, section spacing.
+   Mobile-first; widened in responsive.css.
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--gp-container-width);
+  margin-inline: auto;
+  padding-inline: var(--gp-container-padding);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gp-space-5);
+  grid-template-columns: 1fr;
+}
+
+.grid--2 {
+  grid-template-columns: 1fr;
+}
+
+.grid--3 {
+  grid-template-columns: 1fr;
+}
+
+.grid--4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section {
+  padding-block: var(--gp-space-7);
+}
+
+.section--alt {
+  background-color: var(--gp-color-bg-alt);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

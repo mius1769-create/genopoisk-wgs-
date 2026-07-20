@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Base typography. Mobile-first sizes; scaled up in responsive.css.
+   ========================================================================== */
+
+body {
+  font-family: var(--gp-font-family);
+  font-size: var(--gp-font-size-base);
+  line-height: var(--gp-line-height-base);
+  color: var(--gp-color-text);
+  background-color: var(--gp-color-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: var(--gp-line-height-tight);
+  color: var(--gp-color-text);
+}
+
+h1 {
+  font-size: var(--gp-font-size-2xl);
+}
+
+h2 {
+  font-size: var(--gp-font-size-xl);
+}
+
+h3 {
+  font-size: var(--gp-font-size-lg);
+}
+
+p {
+  font-size: var(--gp-font-size-base);
+  color: var(--gp-color-text);
+}
+
+.text-muted {
+  color: var(--gp-color-text-muted);
+}
+
+.text-sm {
+  font-size: var(--gp-font-size-sm);
+}

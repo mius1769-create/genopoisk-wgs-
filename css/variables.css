@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Design tokens. Single source of truth for colors, spacing, typography.
+   Keep every raw value here — components should only reference var(--...).
+   ========================================================================== */
+
+:root {
+  /* Color: brand */
+  --gp-color-primary: #1a6ee0;
+  --gp-color-primary-dark: #124f9e;
+  --gp-color-primary-light: #eaf2fd;
+  --gp-color-accent: #17b890;
+
+  /* Color: neutral */
+  --gp-color-text: #14202e;
+  --gp-color-text-muted: #5c6b7a;
+  --gp-color-bg: #ffffff;
+  --gp-color-bg-alt: #f5f8fb;
+  --gp-color-border: #e1e7ed;
+
+  /* Color: feedback */
+  --gp-color-success: #17b890;
+  --gp-color-warning: #e0a51a;
+  --gp-color-error: #e0391a;
+
+  /* Typography */
+  --gp-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  --gp-font-size-xs: 12px;
+  --gp-font-size-sm: 14px;
+  --gp-font-size-base: 16px;
+  --gp-font-size-lg: 18px;
+  --gp-font-size-xl: 22px;
+  --gp-font-size-2xl: 28px;
+  --gp-font-size-3xl: 36px;
+  --gp-line-height-base: 1.5;
+  --gp-line-height-tight: 1.2;
+
+  /* Spacing scale (4px base) */
+  --gp-space-1: 4px;
+  --gp-space-2: 8px;
+  --gp-space-3: 12px;
+  --gp-space-4: 16px;
+  --gp-space-5: 24px;
+  --gp-space-6: 32px;
+  --gp-space-7: 48px;
+  --gp-space-8: 64px;
+
+  /* Layout */
+  --gp-container-width: 1200px;
+  --gp-container-padding: var(--gp-space-4);
+
+  /* Radius & shadow */
+  --gp-radius-sm: 6px;
+  --gp-radius-md: 12px;
+  --gp-radius-lg: 20px;
+  --gp-shadow-sm: 0 1px 2px rgba(20, 32, 46, 0.06);
+  --gp-shadow-md: 0 4px 16px rgba(20, 32, 46, 0.08);
+  --gp-shadow-lg: 0 12px 32px rgba(20, 32, 46, 0.12);
+
+  /* Motion */
+  --gp-transition-fast: 0.15s ease;
+  --gp-transition-base: 0.25s ease;
+
+  /* Z-index scale */
+  --gp-z-header: 100;
+  --gp-z-dropdown: 200;
+  --gp-z-modal: 300;
+}
+
+/*
+ * Breakpoints (documentation only — media queries can't read custom
+ * properties, so keep these in sync with responsive.css by hand):
+ * sm: 480px, md: 768px, lg: 1024px, xl: 1280px
+ */

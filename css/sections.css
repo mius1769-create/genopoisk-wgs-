@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Generic content sections (everything below the hero).
+   Foundation only — each section gets its own block class as content lands.
+   ========================================================================== */
+
+.section__header {
+  max-width: 640px;
+  margin-bottom: var(--gp-space-6);
+}
+
+.section__title {
+  margin-bottom: var(--gp-space-3);
+}
+
+.section__subtitle {
+  color: var(--gp-color-text-muted);
+}

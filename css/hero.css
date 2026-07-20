@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Block: hero
+   Foundation only — content and fine layout land with the hero section itself.
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  padding-block: var(--gp-space-7);
+  background-color: var(--gp-color-primary-light);
+  overflow: hidden;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+}
