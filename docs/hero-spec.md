@@ -1,593 +1,324 @@
 # Hero Specification
-Version: 1.0
-Status: Approved
-Project: Genopoisk WGS Landing
-Section: Hero
+## Product: Whole Genome Sequencing (WGS)
 
 ---
 
-# 1. Цель блока
+# Purpose
 
-Hero — самый важный экран сайта.
+The Hero section is the most important part of the entire WGS landing page.
 
-За первые 5 секунд пользователь должен понять:
+Its task is not to explain sequencing technology.
 
-• перед ним современный технологический продукт;
-• речь идет о полном секвенировании генома (Whole Genome Sequencing);
-• Genopoisk продает не просто лабораторный анализ, а цифровой архив ДНК, который остается у владельца навсегда.
+Its task is to communicate one idea:
 
-Hero должен формировать доверие раньше, чем пользователь начнет читать технические характеристики.
+**Whole Genome Sequencing is the most complete way to study human genetic ancestry available today.**
 
----
+Within the first five seconds the visitor should understand:
 
-# 2. Главная идея
-
-Главная идея Hero выражается одной фразой:
-
-> Ваш геном — это цифровой архив, а не одноразовый анализ.
-
-Визуально пользователь должен воспринимать продукт как защищенное цифровое хранилище генетических данных.
-
-Не медицинскую услугу.
-
-Не лабораторию.
-
-Не красивую картинку ДНК.
-
-Именно архив данных.
+- this is the flagship product;
+- this is a premium scientific service;
+- this is modern technology rather than entertainment DNA testing;
+- Genopoisk is a scientific company.
 
 ---
 
-# 3. Ассоциации
+# Emotional Goal
 
-После просмотра Hero пользователь должен ассоциировать продукт со следующими понятиями:
+The first screen should create the feeling of:
 
-- Apple
-- Linear
-- Vercel
-- Notion
-- Figma
-- GitHub
+precision
 
-Нельзя вызывать ассоциации:
+confidence
 
-- поликлиника
-- медицинский центр
-- лаборатория
-- диагностика заболеваний
-- реклама БАДов
+modern science
+
+premium quality
+
+depth
+
+without looking like a medical website.
+
+The visitor should feel:
+
+> "This is the most complete genetic research available."
 
 ---
 
-# 4. Структура
+# Visual Metaphor
 
-Высота Hero
+The visual metaphor of WGS is:
 
-100vh
+## The Crystal
 
-Минимальная высота
+The crystal represents the complete human genome.
 
-900 px
+It is NOT:
 
-Контейнер
+- a diamond;
+- jewelry;
+- luxury;
+- fantasy.
 
-max-width: 1440 px
+It is a scientific object.
 
-Внутренние поля
+Transparent.
+
+Architectural.
+
+Minimal.
+
+Premium.
+
+The crystal symbolizes the enormous amount of information preserved inside the genome.
+
+---
+
+# Central Character
+
+Inside the crystal stands one modern person.
+
+Characteristics:
+
+- Eastern European appearance
+- approximately 30–40 years old
+- neutral facial expression
+- contemporary clothing
+- confident posture
+- no laboratory clothing
+- no business suit
+- no fashion styling
+
+The character represents the customer.
+
+---
+
+# Surrounding Portraits
+
+Around the crystal appear five contemporary portraits.
+
+These are not ancestors.
+
+These are not historical figures.
+
+These are representatives of the largest modern population groups found across Russia and Eurasia.
+
+No national costumes.
+
+No flags.
+
+No stereotypes.
+
+Only realistic modern people.
+
+Purpose:
+
+To communicate the diversity that can be explored using high-quality autosomal genome data.
+
+The portraits are symbolic.
+
+They are NOT ethnicity estimates.
+
+---
+
+# Scientific Message
+
+The Hero must communicate:
+
+The complete genome allows comparison with the full diversity of modern Eurasian populations.
+
+The Hero must NOT communicate:
+
+- ancient DNA
+- archaeological populations
+- paleogenetics
+- historical reconstruction
+
+Those themes belong to other Genopoisk products.
+
+---
+
+# Layout
 
 Desktop
 
-120 px
+Left column
 
-Tablet
+40%
 
-64 px
+Right column
 
-Mobile
+60%
 
-24 px
-
----
-
-# 5. Layout
-
-Используется двухколоночная композиция.
-
-Левая колонка
-
-45%
-
-Правая
-
-55%
-
-Вертикальное выравнивание
-
-center
-
-Между колонками остается большое количество воздуха.
-
-Никаких плотных блоков.
+The illustration should dominate the first screen.
 
 ---
 
-# 6. Левая колонка
+# Left Column
 
-Порядок элементов строго следующий.
+Small label
 
-Badge
+WHOLE GENOME SEQUENCING (WGS)
 
-↓
+Headline
 
-H1
+Полная история вашего происхождения
 
-↓
+Subheadline
 
-Subtitle
+Short explanation of WGS.
 
-↓
+Maximum four lines.
+
+No marketing language.
 
 Primary CTA
 
-↓
+Заказать исследование
 
 Secondary CTA
 
-↓
+Подробнее
 
-Micro trust line
+Below:
 
----
+Three small highlights
 
-# 7. Badge
+Максимум информации
 
-Небольшая стеклянная плашка.
+Научная точность
 
-Текст
-
-WHOLE GENOME SEQUENCING
-
-Размер
-
-12–13 px
-
-uppercase
-
-letter spacing
-
-увеличенный
+Полный цифровой архив генома
 
 ---
 
-# 8. Заголовок
+# Background
 
-Текст
+Deep matte black.
 
-Самый полный ДНК-тест
-для изучения происхождения
+Very subtle green glow.
 
-Максимум две строки.
+No stars.
 
-Размер
+No space.
 
-72 px
+No particles.
 
-Weight
+No futuristic effects.
 
-700
-
-Line-height
-
-0.95
-
-Никаких градиентов.
-
-Никакого свечения.
-
-Только типографика.
+No DNA graphics.
 
 ---
 
-# 9. Подзаголовок
+# Typography
 
-Текст
+Large serif headline.
 
-Один анализ.
-Полный геном.
-Исходные данные навсегда.
+Modern sans-serif body text.
 
-Размер
+Maximum readability.
 
-22 px
-
-Максимум
-
-3 строки
-
-Ширина
-
-не более 520 px
+Lots of whitespace.
 
 ---
 
-# 10. Primary CTA
+# Color Palette
 
-Текст
+Primary:
 
-Выбрать WGS
+Black
 
-Высота
+White
 
-56 px
+Genopoisk mint
 
-Padding
+Gray
 
-32 px
+No blue medical colors.
 
-Border Radius
+No purple.
 
-16 px
-
-Hover
-
-немного светлее
-
-Elevation
-
-увеличивается
-
-Scale
-
-1.02
+No neon.
 
 ---
 
-# 11. Secondary CTA
+# Composition
 
-Ghost Button
+The illustration must immediately attract the eye.
 
-Текст
+The text remains calm.
 
-Как это работает
+Nothing competes with the crystal.
 
-Hover
-
-полупрозрачный фон
+The composition should feel balanced and premium.
 
 ---
 
-# 12. Trust Line
+# Performance
 
-Небольшая строка под кнопками.
+No heavy animations.
 
-Например
+No video backgrounds.
 
-Полные исходные данные • BAM • VCF • FASTQ • mtDNA
+No WebGL.
 
-Размер
+The page must load quickly on mobile devices.
 
-14 px
-
-Opacity
-
-70%
+Static visual quality is more important than animation.
 
 ---
 
-# 13. Правая колонка
+# Design References
 
-Главный объект Hero.
+Apple
 
-Название
+National Geographic
 
-Genome Archive
+Premium editorial design
 
-Он представляет собой большую стеклянную панель.
+Modern museum exhibition
 
-Размер примерно
-
-620×620 px
-
-Внутри находятся карточки файлов.
+Scientific publication
 
 ---
 
-# 14. Карточки
+# Explicitly Avoid
 
-Каждая карточка содержит
+DNA helix
 
-иконку
+Microscopes
 
-название
+Doctors
 
-тип
+Laboratories
 
-Например
+Hospital aesthetics
 
-Genome.bam
+Medical blue
 
-Raw Alignment
+Cyberpunk
 
-Genome.vcf
+Futuristic HUD
 
-Variants
+Glowing particles
 
-FASTQ
-
-Reads
-
-CombinedKit
-
-GEDmatch
-
-mtDNA
-
-Mitochondrial Genome
-
-QC Report
-
-Coverage
-
-30×
-
-Depth
-
-Карточки располагаются в разных плоскостях.
+Tech startup clichés
 
 ---
 
-# 15. Глубина
+# Success Criteria
 
-Используется эффект слоев.
+The visitor immediately understands:
 
-Передние карточки
+This is the flagship Genopoisk product.
 
-крупнее
+This is a scientific research service.
 
-ярче
+This is premium.
 
-Задние
+This is modern.
 
-меньше
+This is trustworthy.
 
-полупрозрачнее
+Most importantly:
 
-Никакого хаоса.
-
-Все должно выглядеть инженерно.
-
----
-
-# 16. Glass
-
-Использовать Glassmorphism умеренно.
-
-background
-
-rgba(255,255,255,0.06)
-
-border
-
-rgba(255,255,255,0.12)
-
-backdrop-filter
-
-blur(24px)
-
-Не превращать экран в стеклянный цирк.
-
----
-
-# 17. Цветовая схема
-
-Background
-
-#050505
-
-Surface
-
-#101214
-
-Text
-
-#FFFFFF
-
-Secondary
-
-#A7ADB5
-
-Accent
-
-Genopoisk Green
-
----
-
-# 18. Фон
-
-Использовать:
-
-очень слабую сетку
-
-едва заметный radial glow
-
-тонкий шум
-
-Фон не должен отвлекать внимание.
-
----
-
-# 19. Анимации появления
-
-0 ms
-
-фон
-
-150 ms
-
-Badge
-
-300 ms
-
-H1
-
-500 ms
-
-Subtitle
-
-700 ms
-
-CTA
-
-900 ms
-
-Archive
-
-1200 ms
-
-File Cards
-
-Все через
-
-opacity
-
-transform
-
----
-
-# 20. Floating
-
-Каждая карточка имеет собственную анимацию.
-
-Продолжительность
-
-8–14 секунд
-
-Случайный сдвиг
-
-8–16 px
-
-Без вращения.
-
-Без подпрыгивания.
-
----
-
-# 21. Mouse Interaction
-
-При движении мыши
-
-архив слегка меняет перспективу.
-
-Максимум
-
-4°
-
-Карточки смещаются с небольшим параллаксом.
-
----
-
-# 22. Responsive
-
-Desktop
-
-две колонки
-
-Tablet
-
-архив уменьшается
-
-Mobile
-
-архив переносится вниз
-
-Текст центрируется
-
-Кнопки становятся вертикальными
-
-Высота Hero
-
-auto
-
----
-
-# 23. Accessibility
-
-Все кнопки доступны с клавиатуры.
-
-Фокус хорошо заметен.
-
-Контраст WCAG AA.
-
-Декоративные элементы имеют
-
-aria-hidden="true"
-
----
-
-# 24. Performance
-
-Запрещено использовать
-
-Three.js
-
-Canvas
-
-WebGL
-
-GSAP
-
-Lottie
-
-Hero должен работать на чистом CSS.
-
----
-
-# 25. Что запрещено
-
-Нельзя использовать
-
-❌ спирали ДНК
-
-❌ врачей
-
-❌ лаборатории
-
-❌ пробирки
-
-❌ микроскопы
-
-❌ молекулы
-
-❌ фотографии людей
-
-❌ кислотные градиенты
-
-❌ чрезмерное свечение
-
-❌ тяжелые видео
-
----
-
-# 26. Acceptance Criteria
-
-Hero считается реализованным, если:
-
-- полностью соответствует настоящей спецификации;
-- выглядит одинаково в Chrome, Safari, Firefox и Edge;
-- адаптивен от 320 px;
-- не содержит визуального шума;
-- имеет Lighthouse Performance ≥95;
-- Accessibility ≥95;
-- Best Practices ≥95;
-- не использует тяжелые зависимости;
-- визуально соответствует уровню современных SaaS-продуктов.
-
----
-
-# Архитектурный принцип
-
-Hero не продает лабораторный анализ.
-
-Hero продает ощущение владения собственным геномом.
-
-Все визуальные решения должны усиливать именно эту мысль.
+The Hero should sell possibilities rather than technology.
